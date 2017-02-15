@@ -8,19 +8,26 @@
 			body {
 				margin:0;
 				padding:0;
+                width:100%;
 				font-family: Sans-Serif;
 				line-height: 1.5em;
 			}
 			
 			header {
 				background: #FFF1D2;
-				height: 100px;
+				height: 70px;
+                background-image: url(banner.jpg);         
 			}
 			
 			header h1 {
-				margin: 0;
-				padding-top: 15px;
-			}
+                background-color: antiquewhite;
+                padding-top: 10px;
+                padding-bottom: 6px;
+                padding-right: 10px;
+                padding-left: 9px;
+                position: absolute;
+                
+            }
 			
 			main {
 				padding-bottom: 10010px;
@@ -55,10 +62,17 @@
 			}
 			
 			.innertube {
-				margin: 15px; /* Padding for content */
+				margin: 20px; /* Padding for content */
 				margin-top: 0;
+                width: 100%;
 			}
-		
+            
+            .innerContainer {
+                width: 100%;
+                overflow: hidden;
+                margin-right: 100%;
+            }
+            
 			p {
 				color: #555;
 			}
@@ -73,8 +87,22 @@
 				color: darkgreen;
 				text-decoration: none;
 			}
+            
+            .w3-center w3-display-bottommiddle {
+             width: 100%;
+            
+            }
+            
+            .sliderPics {
+                display:none
+            }
+            .w3-left, .w3-right, .w3-badge {
+                cursor:pointer
+            }
+            .w3-badge {
+                height:13px;width:13px;padding:0
+            }
 			
-
 		
 		</style>	
 	
@@ -84,7 +112,7 @@
 
 		<header>
 			<div class="innertube">
-				<h1>Manny Flores</h1>
+				<h1>Project DM</h1>
 			</div>
 		</header>
 		
@@ -93,26 +121,72 @@
 			<main>
 				<div id="content">
 					<div class="innertube">
-						<h1>Under Construction</h1>
+						<h1>Which is Fine...</h1>
+                        
+                        <div class="innerContainer">
+                        <img class="sliderPics" src="http://www.telegraph.co.uk/content/dam/Travel/galleries/travel/activityandadventure/The-worlds-most-beautiful-mountains/mountains-Kirkjufe_3374110a-large.jpg">
+                        <img class="sliderPics" src="http://www.telegraph.co.uk/content/dam/Travel/galleries/travel/activityandadventure/The-worlds-most-beautiful-mountains/mountains-roraima_3374096a-large.jpg">
+                        <img class="sliderPics" src="http://www.look4ward.co.uk/wp-content/uploads/2016/07/mountains-cerro_3374092a-large.jpg">
+  
+                        <div class="w3-center w3-display-bottommiddle" style="width:50% ">
+                            <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+                            <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+                            <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+                            <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+                            <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
+                            function plusDivs(n) {
+                                showDivs(slideIndex += n);
+                            }
+                            function currentDiv(n) {
+                                showDivs(slideIndex = n);
+                            }
+                            function showDivs(n) {
+                                var i;
+                                var x = document.getElementsByClassName("sliderPics");
+                                var dots = document.getElementsByClassName("demo");
+                                if (n > x.length) {slideIndex = 1}    
+                                if (n < 1) {slideIndex = x.length}
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";  
+                                }
+  
+                                for (i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" w3-white", "");
+                                }
+  
+                                x[slideIndex-1].style.display = "block";  
+                                dots[slideIndex-1].className += " w3-white";
+                            }
+                        </script>
+                        
 					</div>
 				</div>
 			</main>
 			
 			<nav>
 				<div class="innertube">
-					<h3>Projects</h3>
+					<h3>Art</h3>
 					<ul>
-						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Drawings</a></li>
+                        <li><a href="#">Sketches</a></li>
+
 
 					</ul>
-					<h3>Information</h3>
+					<h3>Stories</h3>
 					<ul>
-						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Poetry</a></li>
+                        <li><a href="#">Memories</a></li>
 
 					</ul>
-					<h3>Resume</h3>
+					<h3>Videos</h3>
 					<ul>
-						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Performances</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -121,7 +195,7 @@
 		
 		<footer>
 			<div class="innertube">
-				<p>What the heck do I put in a footer</p>
+				<p>DOPE AF. Designed to promote you.</p>
 			</div>
 		</footer>
 	
