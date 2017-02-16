@@ -16,7 +16,8 @@
 			header {
 				background: #FFF1D2;
 				height: 70px;
-                background-image: url(banner.jpg);         
+                background-image: url(banner.jpg); 
+                
 			}
 			
 			header h1 {
@@ -30,8 +31,7 @@
             }
 			
 			main {
-				padding-bottom: 10010px;
-				margin-bottom: -10000px;
+				max-height: 100%;
 				float: left;
 				width: 100%;
 			}
@@ -42,15 +42,15 @@
 				float: left;
 				width: 230px;
 				margin-left: -230px;
-				background: #eee;
+				background: #FFEDC7;
 			}
 			
 			footer {
 				clear: left;
 				width: 100%;
-				background: #ccc;
+				background: #B2A07A;
 				text-align: center;
-				padding: 4px 0;
+				padding: 2px 0;
 			}
 	
 			#wrapper {
@@ -58,23 +58,24 @@
 			}
 						
 			#content {
-				margin-right: 230px; /* Same as 'nav' width */
+				margin-right: ; /* Same as 'nav' width */
 			}
 			
 			.innertube {
-				margin: 20px; /* Padding for content */
+				margin: 10px; /* Padding for content */
 				margin-top: 0;
-                width: 100%;
+                max-width: 100%;
 			}
             
             .innerContainer {
-                width: 100%;
+                width: 50%;
                 overflow: hidden;
-                margin-right: 100%;
+            
             }
             
 			p {
 				color: #555;
+                width: 80%;
 			}
 	
 			nav ul {
@@ -88,19 +89,28 @@
 				text-decoration: none;
 			}
             
-            .w3-center w3-display-bottommiddle {
-             width: 100%;
-            
-            }
             
             .sliderPics {
-                display:none
+                display:none;
+                width: 100%;
+                
             }
-            .w3-left, .w3-right, .w3-badge {
-                cursor:pointer
+            
+            .w3-left{ 
+                 float:left;
             }
+            
+            .w3-right{
+                float:right;
+                
+            }
+            
             .w3-badge {
-                height:13px;width:13px;padding:0
+                position: fixed;
+            }
+            
+            .w3-badge {
+               
             }
 			
 		
@@ -117,7 +127,6 @@
 		</header>
 		
 		<div id="wrapper">
-		
 			<main>
 				<div id="content">
 					<div class="innertube">
@@ -128,7 +137,7 @@
                         <img class="sliderPics" src="http://www.telegraph.co.uk/content/dam/Travel/galleries/travel/activityandadventure/The-worlds-most-beautiful-mountains/mountains-roraima_3374096a-large.jpg">
                         <img class="sliderPics" src="http://www.look4ward.co.uk/wp-content/uploads/2016/07/mountains-cerro_3374092a-large.jpg">
   
-                        <div class="w3-center w3-display-bottommiddle" style="width:50% ">
+                        <div class="w3-center w3-display-bottommiddle" style="width:100%; ">
                             <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
                             <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
                             <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
@@ -137,6 +146,11 @@
                             </div>
                         </div>
                         
+                        
+                        
+                        <p>Affronting everything discretion men now own did. Still round match we to. Frankness pronounce daughters remainder extensive has but. Happiness cordially one determine concluded fat. Plenty season beyond by hardly giving of. Consulted or acuteness dejection an smallness if. Outward general passage another as it. Very his are come man walk one next. Delighted prevailed supported too not remainder perpetual who furnished. Nay affronting bed projection compliment instrument. 
+                            
+                        </p>
                         <script>
                             var slideIndex = 1;
                             showDivs(slideIndex);
