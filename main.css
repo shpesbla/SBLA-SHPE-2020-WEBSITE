@@ -18,7 +18,7 @@ a {text-decoration: none;}
 /* Navigation Settings */
 nav {
 	position: absolute;
-	width: 100%;
+	width: auto;
 	height: 70px;
 	background: #fff;
 }
@@ -45,7 +45,7 @@ nav li a {
 }
 
 
-@media screen and (min-width: 300px) {
+@media screen and (min-device-width: 100px) {
   nav li {
     width: 120px;
     border-bottom: none;
