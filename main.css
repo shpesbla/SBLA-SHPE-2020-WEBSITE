@@ -45,7 +45,7 @@ nav li a {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
   nav li {
     width: 120px;
     border-bottom: none;
