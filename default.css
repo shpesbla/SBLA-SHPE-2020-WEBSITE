@@ -498,6 +498,7 @@
 
 	#page
 	{
+        width: 100%;
 	}
 
 /*********************************************************************************/
@@ -592,6 +593,7 @@
 
 	#portfolio
 	{
+        width:100%;
 	}
 	
 	#portfolio .box
@@ -626,7 +628,7 @@
     .column5,
     .column6
 	{
-		width: 182px;
+		width: 40%;
 	}
 	
 	.column1,
@@ -638,7 +640,7 @@
 
 	{
 		float: left;
-		margin-right: 30px;
+		margin-right: 10%;
 	}
 	
 	.column6
