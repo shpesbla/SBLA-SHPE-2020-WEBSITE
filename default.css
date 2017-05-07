@@ -593,7 +593,8 @@
 
 	#portfolio
 	{
-        width:100%;
+       
+        
         
 	}
 	
@@ -640,9 +641,9 @@
     .column6
 
 	{
-		float: left;
-        margin-left: 25px;
-        margin-right: 30px;
+		display: inline-block;
+        margin: 20px;
+        
 	
 	}
 	
@@ -689,9 +690,10 @@
 	#three-column #tbox2,
 	#three-column #tbox3
 	{
-		float: left;
+		
 		width: 320px;
-		padding: 80px 40px 80px 40px;
+		
+        display: inline-block;
 	}
 	
 	#three-column .title
