@@ -594,6 +594,7 @@
 	#portfolio
 	{
         width:100%;
+        
 	}
 	
 	#portfolio .box
@@ -628,7 +629,7 @@
     .column5,
     .column6
 	{
-		width: 40%;
+		width: 182px;
 	}
 	
 	.column1,
@@ -640,7 +641,9 @@
 
 	{
 		float: left;
-		margin-right: 10%;
+        margin-left: 25px;
+        margin-right: 30px;
+	
 	}
 	
 	.column6
@@ -655,7 +658,7 @@
 	#three-column
 	{
 		overflow: hidden;
-		text-align: center;
+		width: 100%;
 	}
 	
 	#three-column h2
