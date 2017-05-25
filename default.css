@@ -3,6 +3,17 @@
 		height: 100%;
         width: auto;
 	}
+
+#bannerimage {
+  max-width: 100%;
+  background-image: url(SHPE%20SBLA%20Official%20Logo.jpg);
+  height: 200px;
+  width: auto;
+  background-color:white;
+  background-position: center;
+  background-repeat: no-repeat;
+    
+}
 	
 	body
 	{
@@ -373,19 +384,25 @@
 
 	#menu
 	{
+        text-align: center;
 	}
 	
 	#menu ul
 	{
 		display: inline-block;
-		padding: 0em 10%;
 		background: #000;
 		text-align: center;
+        max-width: 100%;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        
 	}
 	
 	#menu li
 	{
 		display: inline-block;
+        
 	}
 	
 	#menu li a, #menu li span
@@ -398,6 +415,7 @@
 		text-transform: uppercase;
 		outline: 0;
 		color: #FFF;
+        
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
