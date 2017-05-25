@@ -176,12 +176,14 @@
 	{
 		display: inline-block;
 		border: 1px solid rgba(0,0,0,.1);
+        pointer-events: none
 	}
 	
 	.image img
 	{
 		display: block;
 		width: 100%;
+        pointer-events: none
 	}
 	
 	.image-full
@@ -190,6 +192,17 @@
 		width: 100%;
         height: 200px;
 		margin: 0 0 2em 0;
+        object-fit: cover;
+        pointer-events: none;
+        
+	}
+
+.image-full-founders
+	{
+        height: 50%;
+		margin: 0 0 2em 0;
+        object-fit: cover;
+        pointer-events: none;
 	}
 	
 	.image-left
@@ -553,12 +566,30 @@
 		padding: 3em 0em;
 		text-align: center;
 	}
+	#page-wrapper3
+	{
+		
+		background: #F3F3F3;
+		padding: 3em 0em;
+		text-align: center;
+        margin: 0em 10em 0em 10em;
+	}
+
+
+
+#text-filter {
+    margin: 0em 10em 0em 10em;
+}
 
    #page .ffb{
       
     }
 
 	#page
+	{
+        width: 100%;
+	}
+#page3
 	{
         width: 100%;
 	}
@@ -826,6 +857,7 @@
 
 table {
     border-collapse: collapse;
+    margin: 10px 100px 10px 100px;
 }
 th, td {
     border: solid 1px #CCC;
@@ -838,5 +870,16 @@ th, td {
 .fluid {
 		width: 50%;
 }
-	
-	
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
