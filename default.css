@@ -188,9 +188,8 @@
 	{
 		display: block;
 		width: 100%;
-        height: 30%;
-
-		margin: 0 0 3em 0;
+        height: 200px;
+		margin: 0 0 2em 0;
 	}
 	
 	.image-left
@@ -685,11 +684,12 @@
 		margin: 1em 0em;
 		font-size: 1.5em;
 		font-weight: 700;
+        max-width: 100%;
 	}
 	
 	#three-column .icon
 	{
-		position: relative;
+	
 		display: block;
 		margin: 0px auto 0.80em auto;
 		background: none;
@@ -697,20 +697,20 @@
 		font-size: 4em;
 		width: 150px;
 		height: 150px;
-		border-radius: 100px;
+		
 		border: 6px solid #67128F;
 		text-align: center;
 		color: #FFF;
 		
 	}
+
+
 		
 	#three-column #tbox1,
 	#three-column #tbox2,
 	#three-column #tbox3
 	{
-		
-		width: 320px;
-		
+        width:320px;
         display: inline-block;
 	}
 	
