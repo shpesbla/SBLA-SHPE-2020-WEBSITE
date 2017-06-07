@@ -8,7 +8,7 @@
   max-width: auto;
   /* background-image: url(/Logos/SHPE%20SBLA%20Official%20Logo.jpg); */
   height: auto;
-
+  width: auto;
   background-color:white;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,9 +16,10 @@
 }
 
 .inner {
-  max-width: 100%;
+    
     text-align: center;
-  
+    height: 200px auto;
+    max-height: auto;
 }
 	
 	body
