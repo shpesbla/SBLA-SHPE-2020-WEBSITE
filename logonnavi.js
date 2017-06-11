@@ -3,10 +3,7 @@
 
 
 '<div id="bannerimage">' +
-    '<div class="inner">' +
-        '<!-- If logo is update please make sure it is at 1000 x 200 -->' +
-        '<img src="Logos/SHPE%20SBLA%20Official%20Logo.jpg" width="100%" height="auto"/>' + 
-    '</div>' +
+        
 '</div>' +
     
 '<!-- 2. Div for the navigation bar -->' +

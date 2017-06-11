@@ -4,19 +4,15 @@
         width: auto;
 	}
 
-#bannerimage {
-  background-image: url(/Logos/SHPE%20SBLA%20Official%20Logo.jpg); 
-  background-color:white;
-  background-position: center;
-  background-repeat: no-repeat;
-    width: 100%;
-}
+    #bannerimage {
+        background-image: url(/Logos/SHPE%20SBLA%20Official%20Logo.jpg); 
+        background-color:grey;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 180px;
+     }
 
-.inner {
-    
-    text-align: center;
-     width: 100%;
-}
 	
 	body
 	{
@@ -452,10 +448,16 @@
 		display: inline-block;
 		background: #000;
 		text-align: center;
-        max-width: 100%;
-        width: auto;
+        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
+        position: center;
+        /* white-space: nowrap; */
+            margin-right: auto;    
+    margin-left: auto;    
+    width: 70%;    
+    max-width: 100%;    
+    min-width: 1000px;  
         
 	}
 	
@@ -468,12 +470,12 @@
 	#menu li a, #menu li span
 	{
 		display: inline-block;
-		padding: 1.3em 1.5em;
+		padding: 1em 1em;
 		text-decoration: none;
 		font-size: 0.90em;
 		font-weight: 600;
 		text-transform: uppercase;
-		outline: 0;
+		outline: 2;
 		color: #FFF;
         
 	}
