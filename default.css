@@ -393,7 +393,7 @@
 /* Menu                                                                          */
 /*********************************************************************************/
 
-@media only screen and (max-width : 640px) {
+
 
 	header {
 
@@ -435,7 +435,6 @@
 		display: block;
 
 	}
-}
 
 
 	#menu
@@ -453,13 +452,100 @@
         position: center;
         /* white-space: nowrap; */
         width: 100%;
-        white-space: nowrap;
+	}
+
+    @media only screen and (min-width: 900px) {
+        body {
+        }
+        header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+
+	}
+
+	nav ul, nav:active ul { 
+
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+
+
+	#menu
+	{
         
 	}
 	
-	#menu li
+	#menu ul
+	{
+	
+		background: #000;
+		text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: center;
+        /* white-space: nowrap; */
+        width: 100%;
+	}
+        #menu li
 	{
 		display: inline-block;
+        
+	}
+	
+	#menu li a, #menu li span
+	{
+		
+		padding: 1em 1em;
+		text-decoration: none;
+		font-size: 0.80em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 2;
+		color: #FFF;
+        
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a
+	{
+		color: #FFF;
+	}
+
+}
+	
+	#menu li
+	{
+		
         
 	}
 	
@@ -484,7 +570,7 @@
 	{
 		color: #FFF;
 	}
-	
+
 
 /*********************************************************************************/
 /* Banner                                                                        */
