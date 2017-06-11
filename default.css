@@ -454,19 +454,28 @@
         width: 100%;
 	}
 
+@media all (max-width:900px){
+        #bannerimage {
+        background-image: url(/Logos/SHPE%20SBLA%20Official%20Logo.jpg); 
+        background-color:grey;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: auto;
+     }
+
+}
     @media only screen and (min-width: 900px) {
-        body {
-        }
+        
         header {
-
 		position: absolute;
-
 	}
 
 	#menu-icon {
 
 
 	}
+    
 
 	nav ul, nav:active ul { 
 
@@ -527,7 +536,7 @@
 		font-size: 0.80em;
 		font-weight: 600;
 		text-transform: uppercase;
-		outline: 2;
+		outline: 0;
 		color: #FFF;
         
 	}
