@@ -893,7 +893,7 @@
 	#three-column #tbox3,
     #three-column #tbox4
 	{
-        width:320px;
+        width:310px;
         display: flex;
     justify-content: space-between;
         display: inline-block;
