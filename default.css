@@ -1010,7 +1010,7 @@ th2, td2 {
 
 table {
     border-collapse: collapse;
-    margin: 10px 100px 10px 100px;
+    width:100%;
 }
 th, td {
     border: solid 1px #CCC;
