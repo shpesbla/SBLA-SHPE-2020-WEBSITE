@@ -938,7 +938,7 @@ infotext3{
 	#three-column #tbox3,
     #three-column #tbox4
 	{
-        width:400px;
+        width:500px;
         display: flex;
     justify-content: space-between;
         display: inline-block;
@@ -1640,4 +1640,51 @@ span#b-5:focus ~ .slider .inset { margin-left:-400%; }
 
 	#content-slider #control { margin-top: 12%; }
 
+}
+
+
+.team {
+list-style: none;
+}
+
+.team li {
+display: inline-block;
+text-align: center;
+width: 128px;
+padding: 20px;
+    height: 0px;
+}
+
+.team li a {
+text-decoration: none;
+color: #4e4e4e;
+}
+
+.team li figure {
+padding: 0;
+margin: 0;
+}
+
+.team li figure img {
+border: 2px solid #c0c0c0;
+transition: border-color 500ms ease;
+margin-bottom: 0.5em;
+}
+
+
+.team li figure figcaption {
+font-weight: bold;
+}
+
+.team li figure figcaption em {
+display: block;
+font-weight: normal;
+color: #c0c0c0;
+}
+
+.avatar {
+border-radius: 50%;
+background: #f2f2f2;
+width: 128px;
+height: 128pxpx;
 }
