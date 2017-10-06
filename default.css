@@ -197,6 +197,7 @@
 	}
 
 .joining{
+   max-height: 100%;
     float:left;
     display: inline-block;
     color:#174D7C;
