@@ -1869,7 +1869,7 @@ height: 128pxpx;
     transform: translateY(-55%);
     -webkit-transition: all 0.3s 0.2s;
     transition: all 0.3s 0.2s;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 .desk, .desk h4, .team-hover .s-link a {
     text-align: left;
