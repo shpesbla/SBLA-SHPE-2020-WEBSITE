@@ -1852,14 +1852,16 @@ height: 128pxpx;
     transition: all 0.3s;
 }
 .team-member:hover .team-hover .desk {
-    top: 35%;
+    top: 200px;
+    left: -20px;
+    
 }
 .team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
     opacity: 1;
 }
 .team-hover .desk {
     position: absolute;
-    top: 0%;
+    
     width: 100%;
     opacity: 0;
     -webkit-transform: translateY(-55%);
@@ -1870,7 +1872,7 @@ height: 128pxpx;
     padding: 0 20px;
 }
 .desk, .desk h4, .team-hover .s-link a {
-    text-align: center;
+    text-align: left;
     color: #222;
 }
 .team-member:hover .team-hover .s-link {
@@ -1903,7 +1905,7 @@ height: 128pxpx;
 }
 .team-title {
     position: static;
-    padding: 20px 0;
+    padding: 10px 0;
     display: inline-block;
     letter-spacing: 2px;
     width: 100%;
