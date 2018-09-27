@@ -18,5 +18,6 @@
         '<li><a href="/howtojoin.html" accesskey="7" title="">How To Join</a></li>' +
         '<li><a href="/connect.html" accesskey="8" title="">Connect</a></li>' +
         '<li><a href="/store.html" accesskey="8" title="">Store</a></li>' +
+        '<li><a href="/shpetinas.html" accesskey="10" title="">SHPEtinas</a></li>' +
     '</ul>' +
 '</div>';
