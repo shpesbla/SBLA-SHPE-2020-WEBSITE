@@ -48,6 +48,24 @@
       <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
     </div>
   </div>
+ 
+<script> 
+  <!-- Automatic Slideshow - change image every 4 seconds -->
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+</script>
 
 <!--Fixed Position -->
 <style>
@@ -65,6 +83,8 @@ div.fixed {
 <img src="/Logos/unnamed.png" class="w3-image w3-greyscale-min" style="width:100%">
 </div>
 <!--End Fixed Position -->
+
+
         
 <div id="footer" class="container">
 	<p style="color:white; font-size: 17px;">Follow us on social media</p>
